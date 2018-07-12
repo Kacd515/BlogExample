@@ -1,4 +1,4 @@
-package pl.akademiakodu.springExample;
+package pl.akademiakodu.springExample.models;
 
 import java.util.ArrayList;
 import java.util.List;
