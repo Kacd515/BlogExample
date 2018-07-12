@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
 
-<h1>Hello world</h1>
+<h1>Dodawanie posta</h1>
+
+<form action="/show" method="get">
+    <label>Tytuł</label>
+    <input type="text" name="title">
+    <br>
+    <label>Opis</label>
+    <br>
+    <textarea rows="4" cols="50" name="content"/>
+
+    </textarea>
+    <br>
+    <label>Autor</label>
+    <input type="text" name="author">
+    <input type="submit" name="Dodaj post">
+</form>
 
 </body>
 </html>
